@@ -1,3 +1,0 @@
-/home/lmallado/CLionProjects/module 01/ex07/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lmallado/CLionProjects/module 01/ex07/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/lmallado/CLionProjects/module 01/ex07/cmake-build-debug/CMakeFiles/ex07.dir
