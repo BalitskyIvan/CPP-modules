@@ -16,10 +16,16 @@ Fixed& Fixed::operator=(const Fixed &fixed)
 {
     std::cout << "Assignation operator called" << std::endl;
     if (this == &fixed) {
-    return *this;
+    	return *this;
     }
     value = fixed.value;
     return *this;
+}
+
+ostream& operator<< (ostream& out const Fixed& fixed)
+{
+	out << fixed.value;
+	return out;
 }
 
 int Fixed::getRawBits() const {

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lmallado/Desktop/cpp/module 03/ex01/FragTrap.cpp
+FragTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex01/FragTrap.hpp
+
+/Users/lmallado/Desktop/cpp/module 03/ex01/FragTrap.hpp
+iostream
+-
+
+/Users/lmallado/Desktop/cpp/module 03/ex01/ScavTrap.cpp
+ScavTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex01/ScavTrap.hpp
+
+/Users/lmallado/Desktop/cpp/module 03/ex01/ScavTrap.hpp
+iostream
+-
+
+/Users/lmallado/Desktop/cpp/module 03/ex01/main.cpp
+FragTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex01/FragTrap.hpp
+ScavTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex01/ScavTrap.hpp
+

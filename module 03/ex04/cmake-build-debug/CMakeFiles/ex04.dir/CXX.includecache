@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lmallado/Desktop/cpp/module 03/ex04/ClapTrap.hpp
+iostream
+-
+
+/Users/lmallado/Desktop/cpp/module 03/ex04/FragTrap.hpp
+iostream
+-
+ClapTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex04/ClapTrap.hpp
+
+/Users/lmallado/Desktop/cpp/module 03/ex04/NinjaTrap.hpp
+ClapTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex04/ClapTrap.hpp
+FragTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex04/FragTrap.hpp
+ScavTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex04/ScavTrap.hpp
+iostream
+-
+
+/Users/lmallado/Desktop/cpp/module 03/ex04/ScavTrap.hpp
+ClapTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex04/ClapTrap.hpp
+
+/Users/lmallado/Desktop/cpp/module 03/ex04/SuperTrap.cpp
+SuperTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex04/SuperTrap.hpp
+
+/Users/lmallado/Desktop/cpp/module 03/ex04/SuperTrap.hpp
+NinjaTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex04/NinjaTrap.hpp
+FragTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex04/FragTrap.hpp
+ClapTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex04/ClapTrap.hpp
+
+/Users/lmallado/Desktop/cpp/module 03/ex04/main.cpp
+FragTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex04/FragTrap.hpp
+NinjaTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex04/NinjaTrap.hpp
+ScavTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex04/ScavTrap.hpp
+SuperTrap.hpp
+/Users/lmallado/Desktop/cpp/module 03/ex04/SuperTrap.hpp
+

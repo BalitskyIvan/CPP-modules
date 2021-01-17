@@ -6,7 +6,7 @@
 #define MODULE_02_FIXED_HPP
 
 #include <iostream>
-
+#include <cmath>
 class Fixed {
 private:
 	int value;
@@ -16,15 +16,18 @@ public:
 	Fixed();
 	Fixed(const Fixed &fixed);
 
-	Fixed(int value);
-	Fixed(float value);
+	Fixed(const int value);
+	Fixed(const float value);
 
+	float toFloat(void) const;
+	int toInt(void) const;
 	Fixed& operator= (const Fixed& fixed);
 	int getRawBits(void) const;
 	void setRawBits(int const raw);
 
 	virtual ~Fixed();
 };
+std::ostream& operator<< (std::ostream& os, const Fixed& fixed);
 
 
 #endif//MODULE_02_FIXED_HPP
