@@ -8,11 +8,19 @@ CMakeFiles/ex01.dir/Ak_47.cpp.o: ../AWeapon.hpp
 CMakeFiles/ex01.dir/Ak_47.cpp.o: ../Ak_47.cpp
 CMakeFiles/ex01.dir/Ak_47.cpp.o: ../Ak_47.hpp
 
+CMakeFiles/ex01.dir/Beggar.cpp.o: ../Beggar.cpp
+CMakeFiles/ex01.dir/Beggar.cpp.o: ../Beggar.hpp
+CMakeFiles/ex01.dir/Beggar.cpp.o: ../Enemy.hpp
+
 CMakeFiles/ex01.dir/Character.cpp.o: ../Character.cpp
 CMakeFiles/ex01.dir/Character.cpp.o: ../Character.hpp
 
 CMakeFiles/ex01.dir/Enemy.cpp.o: ../Enemy.cpp
 CMakeFiles/ex01.dir/Enemy.cpp.o: ../Enemy.hpp
+
+CMakeFiles/ex01.dir/Godzilla.cpp.o: ../Enemy.hpp
+CMakeFiles/ex01.dir/Godzilla.cpp.o: ../Godzilla.cpp
+CMakeFiles/ex01.dir/Godzilla.cpp.o: ../Godzilla.hpp
 
 CMakeFiles/ex01.dir/GrenadeLauncher.cpp.o: ../AWeapon.hpp
 CMakeFiles/ex01.dir/GrenadeLauncher.cpp.o: ../GrenadeLauncher.cpp
@@ -26,16 +34,23 @@ CMakeFiles/ex01.dir/PowerFirst.cpp.o: ../AWeapon.hpp
 CMakeFiles/ex01.dir/PowerFirst.cpp.o: ../PowerFirst.cpp
 CMakeFiles/ex01.dir/PowerFirst.cpp.o: ../PowerFirst.hpp
 
+CMakeFiles/ex01.dir/RadScorpion.cpp.o: ../Enemy.hpp
 CMakeFiles/ex01.dir/RadScorpion.cpp.o: ../RadScorpion.cpp
 CMakeFiles/ex01.dir/RadScorpion.cpp.o: ../RadScorpion.hpp
 
+CMakeFiles/ex01.dir/SuperMutant.cpp.o: ../Enemy.hpp
 CMakeFiles/ex01.dir/SuperMutant.cpp.o: ../SuperMutant.cpp
 CMakeFiles/ex01.dir/SuperMutant.cpp.o: ../SuperMutant.hpp
 
 CMakeFiles/ex01.dir/main.cpp.o: ../AWeapon.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../Ak_47.hpp
+CMakeFiles/ex01.dir/main.cpp.o: ../Beggar.hpp
+CMakeFiles/ex01.dir/main.cpp.o: ../Enemy.hpp
+CMakeFiles/ex01.dir/main.cpp.o: ../Godzilla.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../GrenadeLauncher.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../PlasmaRifle.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../PowerFirst.hpp
+CMakeFiles/ex01.dir/main.cpp.o: ../RadScorpion.hpp
+CMakeFiles/ex01.dir/main.cpp.o: ../SuperMutant.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../main.cpp
 

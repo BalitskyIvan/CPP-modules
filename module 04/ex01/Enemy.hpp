@@ -8,8 +8,9 @@
 #include <iostream>
 
 class Enemy {
+protected:
+    int hitPoints;
 private:
-	int hitPoints;
 	std::string type;
 	Enemy();
 

@@ -20,7 +20,7 @@ public:
 	AWeapon(AWeapon &aWeapon);
 	int getAPCost() const;
 	int getDamage() const;
-	const std::string const &getName() const;
+	std::string const &getName() const;
 	AWeapon& operator= (const  AWeapon &aWeapon);
 	virtual void attack() const = 0;
 };

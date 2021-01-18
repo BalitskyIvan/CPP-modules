@@ -4,18 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/lmallado/Desktop/cpp/module 04/ex01/AWeapon.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/AWeapon.cpp.o"
-  "/Users/lmallado/Desktop/cpp/module 04/ex01/Ak_47.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Ak_47.cpp.o"
-  "/Users/lmallado/Desktop/cpp/module 04/ex01/Character.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Character.cpp.o"
-  "/Users/lmallado/Desktop/cpp/module 04/ex01/Enemy.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Enemy.cpp.o"
-  "/Users/lmallado/Desktop/cpp/module 04/ex01/GrenadeLauncher.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/GrenadeLauncher.cpp.o"
-  "/Users/lmallado/Desktop/cpp/module 04/ex01/PlasmaRifle.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/PlasmaRifle.cpp.o"
-  "/Users/lmallado/Desktop/cpp/module 04/ex01/PowerFirst.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/PowerFirst.cpp.o"
-  "/Users/lmallado/Desktop/cpp/module 04/ex01/RadScorpion.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/RadScorpion.cpp.o"
-  "/Users/lmallado/Desktop/cpp/module 04/ex01/SuperMutant.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/SuperMutant.cpp.o"
-  "/Users/lmallado/Desktop/cpp/module 04/ex01/main.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o"
+  "/home/lmallado/Desktop/cpp/module 04/ex01/AWeapon.cpp" "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/AWeapon.cpp.o"
+  "/home/lmallado/Desktop/cpp/module 04/ex01/Ak_47.cpp" "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Ak_47.cpp.o"
+  "/home/lmallado/Desktop/cpp/module 04/ex01/Beggar.cpp" "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Beggar.cpp.o"
+  "/home/lmallado/Desktop/cpp/module 04/ex01/Character.cpp" "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Character.cpp.o"
+  "/home/lmallado/Desktop/cpp/module 04/ex01/Enemy.cpp" "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Enemy.cpp.o"
+  "/home/lmallado/Desktop/cpp/module 04/ex01/Godzilla.cpp" "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Godzilla.cpp.o"
+  "/home/lmallado/Desktop/cpp/module 04/ex01/GrenadeLauncher.cpp" "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/GrenadeLauncher.cpp.o"
+  "/home/lmallado/Desktop/cpp/module 04/ex01/PlasmaRifle.cpp" "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/PlasmaRifle.cpp.o"
+  "/home/lmallado/Desktop/cpp/module 04/ex01/PowerFirst.cpp" "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/PowerFirst.cpp.o"
+  "/home/lmallado/Desktop/cpp/module 04/ex01/RadScorpion.cpp" "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/RadScorpion.cpp.o"
+  "/home/lmallado/Desktop/cpp/module 04/ex01/SuperMutant.cpp" "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/SuperMutant.cpp.o"
+  "/home/lmallado/Desktop/cpp/module 04/ex01/main.cpp" "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

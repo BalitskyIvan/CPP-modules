@@ -31,6 +31,6 @@ AWeapon &AWeapon::operator=(const AWeapon &aWeapon) {
 AWeapon::AWeapon(AWeapon &aWeapon) {
 	*this = aWeapon;
 }
-const std::string const &AWeapon::getName() const {
+std::string const &AWeapon::getName() const {
 	return this->name;
 }

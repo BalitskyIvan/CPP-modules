@@ -12,9 +12,16 @@ SuperMutant::SuperMutant(const SuperMutant &superMutant) : Enemy(superMutant.get
 	std::cout << "Gaaah. Me want smash heads!" << std::endl;
 }
 
-SuperMutant::~SuperMutant() {
+void SuperMutant::takeDamage(int damage) {
+	if (damage <= 0)
+		return;
+    if (this->hitPoints - damage > 0)
+        this->hitPoints -= damage;
+    else if (this->hitPoints != -1) {
+        this->hitPoints = -1;
+        std::cout << "Aaargh..." << std::endl;
+    }
 }
 
-void SuperMutant::takeDamage(int damage) {
-	
+SuperMutant::~SuperMutant() {
 }

@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/lmallado/Desktop/cpp/module 04/ex01"
+CMAKE_SOURCE_DIR = "/home/lmallado/Desktop/cpp/module 04/ex01"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/138/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/138/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles" "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles" "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -197,6 +197,33 @@ Ak_47.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Ak_47.cpp.s
 .PHONY : Ak_47.cpp.s
 
+Beggar.o: Beggar.cpp.o
+
+.PHONY : Beggar.o
+
+# target to build an object file
+Beggar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Beggar.cpp.o
+.PHONY : Beggar.cpp.o
+
+Beggar.i: Beggar.cpp.i
+
+.PHONY : Beggar.i
+
+# target to preprocess a source file
+Beggar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Beggar.cpp.i
+.PHONY : Beggar.cpp.i
+
+Beggar.s: Beggar.cpp.s
+
+.PHONY : Beggar.s
+
+# target to generate assembly for a file
+Beggar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Beggar.cpp.s
+.PHONY : Beggar.cpp.s
+
 Character.o: Character.cpp.o
 
 .PHONY : Character.o
@@ -250,6 +277,33 @@ Enemy.s: Enemy.cpp.s
 Enemy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Enemy.cpp.s
 .PHONY : Enemy.cpp.s
+
+Godzilla.o: Godzilla.cpp.o
+
+.PHONY : Godzilla.o
+
+# target to build an object file
+Godzilla.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Godzilla.cpp.o
+.PHONY : Godzilla.cpp.o
+
+Godzilla.i: Godzilla.cpp.i
+
+.PHONY : Godzilla.i
+
+# target to preprocess a source file
+Godzilla.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Godzilla.cpp.i
+.PHONY : Godzilla.cpp.i
+
+Godzilla.s: Godzilla.cpp.s
+
+.PHONY : Godzilla.s
+
+# target to generate assembly for a file
+Godzilla.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Godzilla.cpp.s
+.PHONY : Godzilla.cpp.s
 
 GrenadeLauncher.o: GrenadeLauncher.cpp.o
 
@@ -428,12 +482,18 @@ help:
 	@echo "... Ak_47.o"
 	@echo "... Ak_47.i"
 	@echo "... Ak_47.s"
+	@echo "... Beggar.o"
+	@echo "... Beggar.i"
+	@echo "... Beggar.s"
 	@echo "... Character.o"
 	@echo "... Character.i"
 	@echo "... Character.s"
 	@echo "... Enemy.o"
 	@echo "... Enemy.i"
 	@echo "... Enemy.s"
+	@echo "... Godzilla.o"
+	@echo "... Godzilla.i"
+	@echo "... Godzilla.s"
 	@echo "... GrenadeLauncher.o"
 	@echo "... GrenadeLauncher.i"
 	@echo "... GrenadeLauncher.s"
