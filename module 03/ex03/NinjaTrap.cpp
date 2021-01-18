@@ -49,6 +49,7 @@ int NinjaTrap::ninjaShoebox(FragTrap &fragTrap) {
 			return this->rangedAttack(fragTrap.getName());
 	} else
 		std::cout << this->getName() + " can't attack " + " because he is dead :(" << std::endl;
+	return 0;
 }
 
 int NinjaTrap::ninjaShoebox(ScavTrap &scavTrap) {
@@ -60,6 +61,7 @@ int NinjaTrap::ninjaShoebox(ScavTrap &scavTrap) {
 			return this->rangedAttack(scavTrap.getName());
 	} else
 		std::cout << this->getName() + " can't attack " + " because he is dead :(" << std::endl;
+		return 0;
 }
 
 NinjaTrap::~NinjaTrap() { std::cout << "Ninja Trap " + getName() + " DEACTIVATED" << std::endl; }

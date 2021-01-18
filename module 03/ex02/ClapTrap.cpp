@@ -4,7 +4,10 @@
 
 #include "ClapTrap.hpp"
 
-ClapTrap::ClapTrap(int hitPoints, const int maxHitPoints, int energyPoints, const int maxEnergyPoints, int level, const std::string &name, const int meleeAttackDamage, const int rangedAttackDamage, const int armorDamageReduction) : hitPoints(hitPoints), maxHitPoints(maxHitPoints), energyPoints(energyPoints), maxEnergyPoints(maxEnergyPoints), level(level), name(name), meleeAttackDamage(meleeAttackDamage), rangedAttackDamage(rangedAttackDamage), armorDamageReduction(armorDamageReduction) {
+ClapTrap::ClapTrap(int hitPoints, const int maxHitPoints, int energyPoints, const int maxEnergyPoints,
+int level, const std::string &name, const int meleeAttackDamage, const int rangedAttackDamage, const int armorDamageReduction) :
+hitPoints(hitPoints), maxHitPoints(maxHitPoints), energyPoints(energyPoints), maxEnergyPoints(maxEnergyPoints),
+level(level), name(name), meleeAttackDamage(meleeAttackDamage), rangedAttackDamage(rangedAttackDamage), armorDamageReduction(armorDamageReduction) {
 	std::cout << "Clap trap " + getName() + " constructor called" << std::endl;
 }
 
@@ -61,7 +64,7 @@ int ClapTrap::meleeAttack(const std::string &target) {
 }
 
 void ClapTrap::takeDamage(unsigned int amount) {
-	if (amount > armorDamageReduction) {
+	if (amount > this->armorDamageReduction) {
 		std::cout << this->getName() + " has taken damage of " + std::to_string(amount) + " points" << std::endl;
 		this->hitPoints -= amount;
 		if (this->hitPoints <= 0) {

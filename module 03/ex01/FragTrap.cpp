@@ -4,7 +4,8 @@
 
 #include "FragTrap.hpp"
 
-FragTrap::FragTrap(const std::string &name) : name(name) {
+
+FragTrap::FragTrap(const std::string &name) : hitPoints(100), maxHitPoints(100), energyPoints(100), maxEnergyPoints(100), level(1), name(name), meleeAttackDamage(30), rangedAttackDamage(20), armorDamageReduction(5) {
 	std::cout << "FR4G-TP " + name + " created" << std::endl;
 }
 
@@ -20,7 +21,7 @@ FragTrap &FragTrap::operator=(const FragTrap &fragTrap) {
 	return *this;
 }
 
-FragTrap::FragTrap(FragTrap &fragTrap) {
+FragTrap::FragTrap(FragTrap &fragTrap) : maxHitPoints(100), maxEnergyPoints(100), meleeAttackDamage(30), rangedAttackDamage(20), armorDamageReduction(5) {
 	std::cout << "FR4G-TP " + name + " created" << std::endl;
 	this->name = fragTrap.getName();
 	this->energyPoints = fragTrap.getEnergyPoints();
@@ -28,7 +29,7 @@ FragTrap::FragTrap(FragTrap &fragTrap) {
 	this->level = fragTrap.getLevel();
 }
 
-FragTrap::FragTrap() : name("Default FragTrap") {
+FragTrap::FragTrap() : hitPoints(100), maxHitPoints(100), energyPoints(100), maxEnergyPoints(100), level(1), name("Default FragTrap"), meleeAttackDamage(30), rangedAttackDamage(20), armorDamageReduction(5) {
 	std::cout << "FR4G-TP " + name + " created" << std::endl;
 }
 
@@ -52,7 +53,7 @@ int FragTrap::meleeAttack(const std::string &target) {
 	}
 }
 void FragTrap::takeDamage(unsigned int amount) {
-	if (amount > armorDamageReduction) {
+	if (amount > this->armorDamageReduction) {
 		std::cout << "FR4G-TP " + this->getName() + " has taken damage of " + std::to_string(amount) + " points" << std::endl;
 		this->hitPoints -= amount;
 		if (this->hitPoints <= 0) {
@@ -86,10 +87,13 @@ void FragTrap::beRepaired(unsigned int amount) {
 	if (this->hitPoints > 0) {
 		this->hitPoints += amount;
 		if (this->hitPoints > maxHitPoints) {
-			std::cout << "FR4G-TP " + this->getName() + " has repaired to max points" << std::endl;
+			std::cout << "FR4G-TP " + this->getName() + " has repaired of " + std::to_string(0) + " points" << std::endl;
 			this->hitPoints = maxHitPoints;
 		} else
 			std::cout << "FR4G-TP " + this->getName() + " has repaired of " + std::to_string(amount) + " points" << std::endl;
+		this->energyPoints++;
+		if (this->energyPoints > this->maxEnergyPoints)
+		this->energyPoints = this->maxEnergyPoints;
 	} else
 		std::cout << "FR4G-TP " + this->getName() + " can't be repaired " + " because he is dead :(" << std::endl;
 }

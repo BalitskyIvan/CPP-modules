@@ -5,7 +5,7 @@
 #include "SuperTrap.hpp"
 
 
-SuperTrap::SuperTrap() : ClapTrap(100, 100, 50, 50, 1, "Default SuperTrap", 20, 20, 5), NinjaTrap(), FragTrap() {
+SuperTrap::SuperTrap() : ClapTrap(100, 100, 50, 50, 1, "Default SuperTrap", 20, 20, 5), FragTrap(), NinjaTrap() {
 	std::cout << name + " created" << std::endl;
 }
 

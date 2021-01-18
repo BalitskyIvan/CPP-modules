@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lmallado/Desktop/cpp/module 04/ex00/Passer.cpp
+Passer.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex00/Passer.hpp
+
+/Users/lmallado/Desktop/cpp/module 04/ex00/Passer.hpp
+Victim.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex00/Victim.hpp
+
+/Users/lmallado/Desktop/cpp/module 04/ex00/Victim.hpp
+iostream
+-
+

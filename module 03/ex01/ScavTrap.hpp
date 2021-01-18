@@ -9,15 +9,15 @@
 
 class ScavTrap {
 private:
-	int hitPoints = 100;
-	const int maxHitPoints = 100;
-	int energyPoints = 50;
-	const int maxEnergyPoints = 50;
-	int level = 1;
+	int hitPoints;
+	const int maxHitPoints;
+	int energyPoints;
+	int maxEnergyPoints;
+	int level;
 	std::string name;
-	const int meleeAttackDamage = 20;
-	const int rangedAttackDamage = 15;
-	const int armorDamageReduction = 3;
+	const int meleeAttackDamage;
+	const int rangedAttackDamage;
+	unsigned int armorDamageReduction;
 
 public:
 	int getHitPoints() const;

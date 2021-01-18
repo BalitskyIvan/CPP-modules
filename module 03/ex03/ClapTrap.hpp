@@ -17,7 +17,7 @@ protected:
 	std::string name;
 	int meleeAttackDamage;
 	int rangedAttackDamage;
-	int armorDamageReduction;
+	unsigned int armorDamageReduction;
 
 public:
 	const std::string &getName() const;

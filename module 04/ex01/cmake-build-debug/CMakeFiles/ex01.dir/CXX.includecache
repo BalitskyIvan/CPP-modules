@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lmallado/Desktop/cpp/module 04/ex01/AWeapon.hpp
+iostream
+-
+
+/Users/lmallado/Desktop/cpp/module 04/ex01/Ak_47.hpp
+AWeapon.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex01/AWeapon.hpp
+
+/Users/lmallado/Desktop/cpp/module 04/ex01/GrenadeLauncher.hpp
+AWeapon.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex01/AWeapon.hpp
+
+/Users/lmallado/Desktop/cpp/module 04/ex01/PlasmaRifle.hpp
+AWeapon.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex01/AWeapon.hpp
+
+/Users/lmallado/Desktop/cpp/module 04/ex01/PowerFirst.hpp
+AWeapon.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex01/AWeapon.hpp
+
+/Users/lmallado/Desktop/cpp/module 04/ex01/main.cpp
+AWeapon.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex01/AWeapon.hpp
+PlasmaRifle.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex01/PlasmaRifle.hpp
+PowerFirst.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex01/PowerFirst.hpp
+Ak_47.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex01/Ak_47.hpp
+GrenadeLauncher.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex01/GrenadeLauncher.hpp
+

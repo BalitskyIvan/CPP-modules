@@ -35,5 +35,5 @@ int FragTrap::vaulthunter_dot_exe(const std::string &target) {
 }
 
 FragTrap::~FragTrap() {
-	std::cout << "FR4G-TP " + getName() + " DEACTIVATED" << std::endl;
+	std::cout << getName() + " DEACTIVATED" << std::endl;
 }

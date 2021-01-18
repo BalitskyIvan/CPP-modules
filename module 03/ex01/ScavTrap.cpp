@@ -16,7 +16,7 @@ ScavTrap &ScavTrap::operator=(const ScavTrap &fragTrap) {
 	return *this;
 }
 
-ScavTrap::ScavTrap(const ScavTrap &fragTrap) {
+ScavTrap::ScavTrap(const ScavTrap &fragTrap) : maxHitPoints(100), maxEnergyPoints(50), meleeAttackDamage(20), rangedAttackDamage(15), armorDamageReduction(3) {
 	std::cout << "ScavTrap " + name + " created" << std::endl;
 	this->name = fragTrap.getName();
 	this->energyPoints = fragTrap.getEnergyPoints();
@@ -24,11 +24,11 @@ ScavTrap::ScavTrap(const ScavTrap &fragTrap) {
 	this->level = fragTrap.getLevel();
 }
 
-ScavTrap::ScavTrap(const std::string &name) : name(name) {
+ScavTrap::ScavTrap(const std::string &name) : hitPoints(100), maxHitPoints(100), energyPoints(50), maxEnergyPoints(50), level(1), name(name), meleeAttackDamage(20), rangedAttackDamage(15), armorDamageReduction(3) {
 	std::cout << "ScavTrap " + name + " created" << std::endl;
 }
 
-ScavTrap::ScavTrap() : name("Default ScavTrap") {
+ScavTrap::ScavTrap() : hitPoints(100), maxHitPoints(100), energyPoints(50), maxEnergyPoints(50), level(1), name("Default ScavTrap"), meleeAttackDamage(20), rangedAttackDamage(15), armorDamageReduction(3) {
 	std::cout << "ScavTrap " + name + " created" << std::endl;
 }
 
@@ -91,6 +91,9 @@ void ScavTrap::beRepaired(unsigned int amount) {
 			this->hitPoints = maxHitPoints;
 		} else
 			std::cout << "ScavTrap " + this->getName() + " has repaired of " + std::to_string(amount) + " points" << std::endl;
+		this->energyPoints++;
+		if (this->energyPoints > this->maxEnergyPoints)
+		this->energyPoints = this->maxEnergyPoints;
 	} else
 		std::cout << "ScavTrap " + this->getName() + " can't be repaired " + " because he is dead :(" << std::endl;
 }

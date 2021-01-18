@@ -9,35 +9,35 @@
 
 class ClapTrap {
 protected:
-	int hitPoints = 100;
-	const int maxHitPoints = 100;
-	int energyPoints = 100;
-	const int maxEnergyPoints = 100;
-	int level = 1;
+	int hitPoints;
+	int maxHitPoints;
+	int energyPoints;
+	int maxEnergyPoints;
+	int level;
 	std::string name;
-	int meleeAttackDamage = 30;
-	int rangedAttackDamage = 20;
-	int armorDamageReduction = 5;
+	int meleeAttackDamage;
+	int rangedAttackDamage;
+	unsigned int armorDamageReduction;
 
 public:
-	int getHitPoints() const;
-	int getEnergyPoints() const;
-	int getLevel() const;
 	const std::string &getName() const;
 	ClapTrap(int hitPoints, const int maxHitPoints, int energyPoints, const int maxEnergyPoints, int level, const std::string &name, const int meleeAttackDamage, const int rangedAttackDamage, const int armorDamageReduction);
 	ClapTrap &operator=(const ClapTrap &clapTrap);
 	ClapTrap(ClapTrap &clapTrap);
 	ClapTrap();
-	virtual int rangedAttack(std::string const &target);
-	virtual int meleeAttack(std::string const &target);
-	virtual void takeDamage(unsigned int amount);
-	virtual void beRepaired(unsigned int amount);
-	virtual ~ClapTrap();
-	const int getMaxHitPoints() const;
-	const int getMaxEnergyPoints() const;
+	int rangedAttack(std::string const &target);
+	int meleeAttack(std::string const &target);
+	void takeDamage(unsigned int amount);
+	void beRepaired(unsigned int amount);
+	int getEnergyPoints() const;
+	int getLevel() const;
+	int getMaxHitPoints() const;
+	int getMaxEnergyPoints() const;
 	int getMeleeAttackDamage() const;
 	int getRangedAttackDamage() const;
 	int getArmorDamageReduction() const;
+	virtual ~ClapTrap();
+	int getHitPoints() const;
 };
 
 

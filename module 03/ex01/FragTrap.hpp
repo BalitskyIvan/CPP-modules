@@ -9,15 +9,15 @@
 
 class FragTrap {
 private:
-	int hitPoints = 100;
-	const int maxHitPoints = 100;
-	int energyPoints = 100;
-	const int maxEnergyPoints = 100;
-	int level = 1;
+	int hitPoints;
+	const int maxHitPoints;
+	int energyPoints;
+	int maxEnergyPoints;
+	int level;
 	std::string name;
-	const int meleeAttackDamage = 30;
-	const int rangedAttackDamage = 20;
-	const int armorDamageReduction = 5;
+	const int meleeAttackDamage;
+	const int rangedAttackDamage;
+	unsigned int armorDamageReduction;
 
 public:
 	int getHitPoints() const;
