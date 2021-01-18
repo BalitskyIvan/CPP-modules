@@ -3,16 +3,22 @@
 //
 
 #include "Character.hpp"
-Character::~Character() {
-}
-Character::Character(const std::string &name) {
+
+Character::Character(const std::string &name) : name(name) {
 }
 void Character::recoverAP() {
 }
-void Character::equip(AWeapon *) {
+
+void Character::equip(AWeapon *aWeapon) {
 }
-void Character::attack(Enemy *) {
+
+void Character::attack(Enemy *enemy) {
+	
 }
+
 std::string const &Character::getName() const {
-	return <#initializer #>;
+	return this->name;
+}
+
+Character::~Character() {
 }
