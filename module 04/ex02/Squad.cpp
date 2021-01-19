@@ -4,7 +4,7 @@
 
 #include "Squad.hpp"
 
-Squad::Squad() : squad(NULL), count(0) {}
+Squad::Squad() : count(0), squad(NULL) {}
 
 static void copyNewSquad(const ISquad &old, ISpaceMarine **newS, int count) {
 	for (int i = 0; i < count; i++) {

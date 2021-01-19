@@ -143,6 +143,195 @@ ex03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/build
 .PHONY : ex03/fast
 
+AMateria.o: AMateria.cpp.o
+
+.PHONY : AMateria.o
+
+# target to build an object file
+AMateria.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/AMateria.cpp.o
+.PHONY : AMateria.cpp.o
+
+AMateria.i: AMateria.cpp.i
+
+.PHONY : AMateria.i
+
+# target to preprocess a source file
+AMateria.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/AMateria.cpp.i
+.PHONY : AMateria.cpp.i
+
+AMateria.s: AMateria.cpp.s
+
+.PHONY : AMateria.s
+
+# target to generate assembly for a file
+AMateria.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/AMateria.cpp.s
+.PHONY : AMateria.cpp.s
+
+Character.o: Character.cpp.o
+
+.PHONY : Character.o
+
+# target to build an object file
+Character.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Character.cpp.o
+.PHONY : Character.cpp.o
+
+Character.i: Character.cpp.i
+
+.PHONY : Character.i
+
+# target to preprocess a source file
+Character.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Character.cpp.i
+.PHONY : Character.cpp.i
+
+Character.s: Character.cpp.s
+
+.PHONY : Character.s
+
+# target to generate assembly for a file
+Character.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Character.cpp.s
+.PHONY : Character.cpp.s
+
+Cure.o: Cure.cpp.o
+
+.PHONY : Cure.o
+
+# target to build an object file
+Cure.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Cure.cpp.o
+.PHONY : Cure.cpp.o
+
+Cure.i: Cure.cpp.i
+
+.PHONY : Cure.i
+
+# target to preprocess a source file
+Cure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Cure.cpp.i
+.PHONY : Cure.cpp.i
+
+Cure.s: Cure.cpp.s
+
+.PHONY : Cure.s
+
+# target to generate assembly for a file
+Cure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Cure.cpp.s
+.PHONY : Cure.cpp.s
+
+Fire.o: Fire.cpp.o
+
+.PHONY : Fire.o
+
+# target to build an object file
+Fire.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Fire.cpp.o
+.PHONY : Fire.cpp.o
+
+Fire.i: Fire.cpp.i
+
+.PHONY : Fire.i
+
+# target to preprocess a source file
+Fire.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Fire.cpp.i
+.PHONY : Fire.cpp.i
+
+Fire.s: Fire.cpp.s
+
+.PHONY : Fire.s
+
+# target to generate assembly for a file
+Fire.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Fire.cpp.s
+.PHONY : Fire.cpp.s
+
+Ice.o: Ice.cpp.o
+
+.PHONY : Ice.o
+
+# target to build an object file
+Ice.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Ice.cpp.o
+.PHONY : Ice.cpp.o
+
+Ice.i: Ice.cpp.i
+
+.PHONY : Ice.i
+
+# target to preprocess a source file
+Ice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Ice.cpp.i
+.PHONY : Ice.cpp.i
+
+Ice.s: Ice.cpp.s
+
+.PHONY : Ice.s
+
+# target to generate assembly for a file
+Ice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Ice.cpp.s
+.PHONY : Ice.cpp.s
+
+MateriaSource.o: MateriaSource.cpp.o
+
+.PHONY : MateriaSource.o
+
+# target to build an object file
+MateriaSource.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/MateriaSource.cpp.o
+.PHONY : MateriaSource.cpp.o
+
+MateriaSource.i: MateriaSource.cpp.i
+
+.PHONY : MateriaSource.i
+
+# target to preprocess a source file
+MateriaSource.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/MateriaSource.cpp.i
+.PHONY : MateriaSource.cpp.i
+
+MateriaSource.s: MateriaSource.cpp.s
+
+.PHONY : MateriaSource.s
+
+# target to generate assembly for a file
+MateriaSource.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/MateriaSource.cpp.s
+.PHONY : MateriaSource.cpp.s
+
+Water.o: Water.cpp.o
+
+.PHONY : Water.o
+
+# target to build an object file
+Water.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Water.cpp.o
+.PHONY : Water.cpp.o
+
+Water.i: Water.cpp.i
+
+.PHONY : Water.i
+
+# target to preprocess a source file
+Water.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Water.cpp.i
+.PHONY : Water.cpp.i
+
+Water.s: Water.cpp.s
+
+.PHONY : Water.s
+
+# target to generate assembly for a file
+Water.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Water.cpp.s
+.PHONY : Water.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +368,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex03"
+	@echo "... AMateria.o"
+	@echo "... AMateria.i"
+	@echo "... AMateria.s"
+	@echo "... Character.o"
+	@echo "... Character.i"
+	@echo "... Character.s"
+	@echo "... Cure.o"
+	@echo "... Cure.i"
+	@echo "... Cure.s"
+	@echo "... Fire.o"
+	@echo "... Fire.i"
+	@echo "... Fire.s"
+	@echo "... Ice.o"
+	@echo "... Ice.i"
+	@echo "... Ice.s"
+	@echo "... MateriaSource.o"
+	@echo "... MateriaSource.i"
+	@echo "... MateriaSource.s"
+	@echo "... Water.o"
+	@echo "... Water.i"
+	@echo "... Water.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

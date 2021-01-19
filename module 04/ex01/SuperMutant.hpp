@@ -12,7 +12,7 @@ public:
 	SuperMutant();
 	SuperMutant(const SuperMutant &superMutant);
     SuperMutant &operator= (const SuperMutant &superMutant);
-	void takeDamage(int i) override;
+	void takeDamage(int i);
 	virtual ~SuperMutant();
 };
 

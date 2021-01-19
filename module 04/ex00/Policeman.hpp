@@ -11,6 +11,7 @@ class Policeman : public Victim {
 public:
 	Policeman(const std::string &name);
 	Policeman(const Victim &victim);
+	Policeman &operator=(const Policeman &policeman);
 	virtual void getPolymorphed() const;
 	virtual ~Policeman();
 };

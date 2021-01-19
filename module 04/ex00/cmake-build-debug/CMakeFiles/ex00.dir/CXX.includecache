@@ -14,7 +14,45 @@ Passer.hpp
 Victim.hpp
 /Users/lmallado/Desktop/cpp/module 04/ex00/Victim.hpp
 
+/Users/lmallado/Desktop/cpp/module 04/ex00/Peon.cpp
+Peon.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex00/Peon.hpp
+
+/Users/lmallado/Desktop/cpp/module 04/ex00/Peon.hpp
+Victim.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex00/Victim.hpp
+
+/Users/lmallado/Desktop/cpp/module 04/ex00/Policeman.cpp
+Policeman.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex00/Policeman.hpp
+
+/Users/lmallado/Desktop/cpp/module 04/ex00/Policeman.hpp
+Victim.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex00/Victim.hpp
+
+/Users/lmallado/Desktop/cpp/module 04/ex00/Sorcerer.cpp
+Sorcerer.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex00/Sorcerer.hpp
+
+/Users/lmallado/Desktop/cpp/module 04/ex00/Sorcerer.hpp
+Peon.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex00/Peon.hpp
+Victim.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex00/Victim.hpp
+
+/Users/lmallado/Desktop/cpp/module 04/ex00/Victim.cpp
+Victim.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex00/Victim.hpp
+
 /Users/lmallado/Desktop/cpp/module 04/ex00/Victim.hpp
 iostream
 -
+
+/Users/lmallado/Desktop/cpp/module 04/ex00/main.cpp
+Passer.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex00/Passer.hpp
+Policeman.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex00/Policeman.hpp
+Sorcerer.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex00/Sorcerer.hpp
 

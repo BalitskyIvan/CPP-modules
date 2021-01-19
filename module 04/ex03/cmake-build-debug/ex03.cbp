@@ -80,6 +80,54 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/AMateria.cpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/AMateria.hpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/Character.cpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/Character.hpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/Cure.cpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/Cure.hpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/Fire.cpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/Fire.hpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/ICharacter.hpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/IMateriaSource.hpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/Ice.cpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/Ice.hpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/MateriaSource.cpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/MateriaSource.hpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/Water.cpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/Water.hpp">
+			<Option target="ex03"/>
+		</Unit>
 		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex03/main.cpp">
 			<Option target="ex03"/>
 		</Unit>

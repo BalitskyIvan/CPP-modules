@@ -8,8 +8,10 @@
 #include <iostream>
 
 class Victim {
-private:
+protected:
 	std::string name;
+
+private:
 	Victim();
 
 public:

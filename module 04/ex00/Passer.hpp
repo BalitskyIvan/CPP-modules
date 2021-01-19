@@ -11,6 +11,7 @@ class Passer : public Victim {
 public:
 	Passer(const std::string &name);
 	Passer(const Victim &victim);
+	Passer &operator=(const Passer &victim);
 	virtual void getPolymorphed() const;
 	virtual ~Passer();
 };

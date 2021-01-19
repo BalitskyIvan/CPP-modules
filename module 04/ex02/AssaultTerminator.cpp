@@ -13,7 +13,7 @@ AssaultTerminator::AssaultTerminator(const AssaultTerminator &assaultTerminator)
 }
 
 AssaultTerminator &AssaultTerminator::operator=(const AssaultTerminator &assaultTerminator) {
-	std::cout << "Assignation operator called" << std::endl;
+	(void) assaultTerminator;
 	return *this;
 }
 

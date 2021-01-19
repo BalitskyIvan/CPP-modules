@@ -14,7 +14,7 @@ TacticalMarine::TacticalMarine(const TacticalMarine &tacticalMarine) {
 }
 
 TacticalMarine &TacticalMarine::operator=(const TacticalMarine &tacticalMarine) {
-	std::cout << "Assignation operator called" << std::endl;
+	(void) tacticalMarine;
 	return *this;
 }
 

@@ -22,7 +22,7 @@ public:
 	Character &operator=(const Character &character);
 	int getActionPoints() const;
 	AWeapon *getWeapon() const;
-	~Character();
+	virtual ~Character();
 	void recoverAP();
 	void equip(AWeapon *);
 	void attack(Enemy *);

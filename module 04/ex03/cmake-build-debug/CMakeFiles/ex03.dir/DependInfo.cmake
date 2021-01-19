@@ -4,6 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/lmallado/Desktop/cpp/module 04/ex03/AMateria.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/AMateria.cpp.o"
+  "/Users/lmallado/Desktop/cpp/module 04/ex03/Character.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Character.cpp.o"
+  "/Users/lmallado/Desktop/cpp/module 04/ex03/Cure.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Cure.cpp.o"
+  "/Users/lmallado/Desktop/cpp/module 04/ex03/Fire.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Fire.cpp.o"
+  "/Users/lmallado/Desktop/cpp/module 04/ex03/Ice.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Ice.cpp.o"
+  "/Users/lmallado/Desktop/cpp/module 04/ex03/MateriaSource.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/MateriaSource.cpp.o"
+  "/Users/lmallado/Desktop/cpp/module 04/ex03/Water.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Water.cpp.o"
   "/Users/lmallado/Desktop/cpp/module 04/ex03/main.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
