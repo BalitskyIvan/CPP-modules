@@ -12,15 +12,23 @@ int Enemy::getHP() const {
 Enemy::Enemy(Enemy &aWeapon) {
 	*this = aWeapon;
 }
-Enemy &Enemy::operator=(const Enemy &aWeapon) {
-	if (this == &aWeapon) {
+Enemy &Enemy::operator=(const Enemy &enemy) {
+	if (this == &enemy) {
 		return *this;
 	}
-	this->type = aWeapon.getType();
-	this->hitPoints = aWeapon.getHP();
+	this->type = enemy.getType();
+	this->hitPoints = enemy.getHP();
 	return *this;
 }
 std::string const &Enemy::getType() const {
 	return this->type;
 }
 Enemy::Enemy() {}
+
+void Enemy::takeDamage(int damage) {
+    if (damage <= 0)
+        return;
+	this->hitPoints -= damage;
+	if (this->hitPoints < 0)
+		this->hitPoints = 0;
+}

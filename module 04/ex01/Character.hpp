@@ -12,16 +12,23 @@
 class Character {
 private:
 	std::string name;
+	int actionPoints;
+	static const int maxAp = 40;
 	AWeapon *weapon;
-	Enemy *enemy;
+
 public:
-    Character(std::string const & name);
-    ~Character();
-    void recoverAP();
-    void equip(AWeapon*);
-    void attack(Enemy*);
-    std::string const& getName() const;
+	Character(std::string const &name);
+	Character(const Character &character);
+	Character &operator=(const Character &character);
+	int getActionPoints() const;
+	AWeapon *getWeapon() const;
+	~Character();
+	void recoverAP();
+	void equip(AWeapon *);
+	void attack(Enemy *);
+	std::string const &getName() const;
 };
 
+std::ostream &operator<<(std::ostream &os, const Character &character);
 
 #endif//EX01_CHARACTER_HPP

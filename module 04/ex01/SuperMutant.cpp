@@ -12,16 +12,22 @@ SuperMutant::SuperMutant(const SuperMutant &superMutant) : Enemy(superMutant.get
 	std::cout << "Gaaah. Me want smash heads!" << std::endl;
 }
 
-void SuperMutant::takeDamage(int damage) {
-	if (damage <= 0)
-		return;
-    if (this->hitPoints - damage > 0)
-        this->hitPoints -= damage;
-    else if (this->hitPoints != -1) {
-        this->hitPoints = -1;
-        std::cout << "Aaargh..." << std::endl;
-    }
+SuperMutant &SuperMutant::operator=(const SuperMutant &superMutant) {
+	if (this == &superMutant) {
+		return *this;
+	}
+	this->type = superMutant.getType();
+	this->hitPoints = superMutant.getHP();
+	return *this;
 }
 
 SuperMutant::~SuperMutant() {
+	std::cout << "Aaargh..." << std::endl;
+}
+void SuperMutant::takeDamage(int damage) {
+	if (damage <= 0)
+		return;
+	this->hitPoints -= damage / 3;
+	if (this->hitPoints < 0)
+		this->hitPoints = 0;
 }

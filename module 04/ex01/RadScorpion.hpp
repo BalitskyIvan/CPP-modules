@@ -9,10 +9,10 @@
 
 class RadScorpion : public Enemy {
 public:
-    RadScorpion();
-    RadScorpion(const RadScorpion &radScorpion);
-    void takeDamage(int);
-    virtual ~RadScorpion();
+	RadScorpion();
+	RadScorpion(const RadScorpion &radScorpion);
+    RadScorpion &operator= (const RadScorpion &radScorpion);
+	virtual ~RadScorpion();
 };
 
 

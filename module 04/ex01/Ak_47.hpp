@@ -7,10 +7,11 @@
 
 #include "AWeapon.hpp"
 
-class Ak_47 : public AWeapon{
+class Ak_47 : public AWeapon {
 public:
 	Ak_47(const Ak_47 &ak47);
-	void attack() const;
+	virtual void attack() const;
+    Ak_47 &operator= (const Ak_47 &weapon);
 	virtual ~Ak_47();
 	Ak_47();
 };

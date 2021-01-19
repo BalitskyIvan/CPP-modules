@@ -11,7 +11,7 @@ int AWeapon::getDamage() const {
 	return damage;
 }
 
-AWeapon::AWeapon(const std::string &name, int apcost, int damage) : name(name), apcost(apcost), damage(damage) {
+AWeapon::AWeapon(const std::string &name, int apcost, int damage) : apcost(apcost), damage(damage), name(name) {
 }
 AWeapon::~AWeapon() {
 }

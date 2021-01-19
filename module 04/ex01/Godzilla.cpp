@@ -5,23 +5,22 @@
 #include "Godzilla.hpp"
 
 Godzilla::Godzilla() : Enemy(120, "Godzilla") {
-    std::cout << "* ROAR RAAArrrr wroooAARr *" << std::endl;
+	std::cout << "* ROAR RAAArrrr wroooAARr *" << std::endl;
 }
 
 Godzilla::Godzilla(const Godzilla &godzilla) : Enemy(godzilla.getHP(), godzilla.getType()) {
-    std::cout << "* ROAR RAAArrrr wroooAARr *" << std::endl;
+	std::cout << "* ROAR RAAArrrr wroooAARr *" << std::endl;
 }
 
-void Godzilla::takeDamage(int damage) {
-    if (damage <= 0)
-        return;
-    if (this->hitPoints - damage > 0)
-        this->hitPoints -= damage;
-    else if (this->hitPoints != -1) {
-        this->hitPoints = -1;
-        std::cout << "* Arrrr Wroar...          BOOOOOOM *" << std::endl;
+Godzilla &Godzilla::operator= (const Godzilla &godzilla) {
+    if (this == &godzilla) {
+        return *this;
     }
+    this->type = godzilla.getType();
+    this->hitPoints = godzilla.getHP();
+    return *this;
 }
 
 Godzilla::~Godzilla() {
+    std::cout << "* Arrrr Wroar...          BOOOOOOM *" << std::endl;
 }

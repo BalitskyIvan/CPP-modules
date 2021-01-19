@@ -13,4 +13,14 @@ void Ak_47::attack() const {
 	std::cout << "* RATATATATATATATATATATATATATATATATATATATATA *" << std::endl;
 }
 
+Ak_47 &Ak_47::operator= (const Ak_47 &weapon) {
+    if (this == &weapon) {
+        return *this;
+    }
+    this->name = weapon.getName();
+    this->apcost = weapon.getAPCost();
+	this->damage = weapon.getDamage();
+    return *this;
+}
+
 Ak_47::Ak_47(const Ak_47 &ak47) : AWeapon(ak47.getName(), ak47.getAPCost(), ak47.getDamage()) {}

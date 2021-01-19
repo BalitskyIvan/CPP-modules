@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lmallado/Desktop/cpp/module 04/ex02/AssaultTerminator.hpp
+ISpaceMarine.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex02/ISpaceMarine.hpp
+iostream
+-
+
+/Users/lmallado/Desktop/cpp/module 04/ex02/ISpaceMarine.hpp
+
+/Users/lmallado/Desktop/cpp/module 04/ex02/ISquad.hpp
+ISpaceMarine.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex02/ISpaceMarine.hpp
+
+/Users/lmallado/Desktop/cpp/module 04/ex02/Squad.hpp
+ISquad.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex02/ISquad.hpp
+iostream
+-
+
+/Users/lmallado/Desktop/cpp/module 04/ex02/TacticalMarine.hpp
+ISpaceMarine.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex02/ISpaceMarine.hpp
+iostream
+-
+
+/Users/lmallado/Desktop/cpp/module 04/ex02/main.cpp
+iostream
+-
+ISpaceMarine.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex02/ISpaceMarine.hpp
+TacticalMarine.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex02/TacticalMarine.hpp
+AssaultTerminator.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex02/AssaultTerminator.hpp
+ISquad.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex02/ISquad.hpp
+Squad.hpp
+/Users/lmallado/Desktop/cpp/module 04/ex02/Squad.hpp
+

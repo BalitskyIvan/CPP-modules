@@ -8,150 +8,148 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"/>
+				<Option working_dir="/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"/>
+				<Option working_dir="/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"/>
+				<Option working_dir="/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex01">
-				<Option output="/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/ex01" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"/>
+				<Option output="/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/ex01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex01"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex01"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex01/fast">
-				<Option output="/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/ex01" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"/>
+				<Option output="/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/ex01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex01/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex01/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/lmallado/Desktop/cpp/module\ 04/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/AWeapon.cpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/AWeapon.cpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/AWeapon.hpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/AWeapon.hpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/Ak_47.cpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/Ak_47.cpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/Ak_47.hpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/Ak_47.hpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/Beggar.cpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/Beggar.cpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/Beggar.hpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/Beggar.hpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/Character.cpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/Character.cpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/Character.hpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/Character.hpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/Enemy.cpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/Enemy.cpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/Enemy.hpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/Enemy.hpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/Godzilla.cpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/Godzilla.cpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/Godzilla.hpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/Godzilla.hpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/GrenadeLauncher.cpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/GrenadeLauncher.cpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/GrenadeLauncher.hpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/GrenadeLauncher.hpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/PlasmaRifle.cpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/PlasmaRifle.cpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/PlasmaRifle.hpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/PlasmaRifle.hpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/PowerFirst.cpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/PowerFist.cpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/PowerFirst.hpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/PowerFist.hpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/RadScorpion.cpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/RadScorpion.cpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/RadScorpion.hpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/RadScorpion.hpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/SuperMutant.cpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/SuperMutant.cpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/SuperMutant.hpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/SuperMutant.hpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/main.cpp">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/main.cpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/lmallado/Desktop/cpp/module 04/ex01/CMakeLists.txt">
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex01/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

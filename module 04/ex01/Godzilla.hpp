@@ -9,10 +9,10 @@
 
 class Godzilla : public Enemy {
 public:
-    Godzilla();
-    Godzilla(const Godzilla &godzilla);
-    void takeDamage(int);
-    virtual ~Godzilla();
+	Godzilla();
+	Godzilla(const Godzilla &godzilla);
+    Godzilla &operator= (const Godzilla &godzilla);
+	virtual ~Godzilla();
 };
 
 #endif//EX01_GODZILLA_HPP

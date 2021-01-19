@@ -9,11 +9,10 @@
 
 class Beggar : public Enemy {
 public:
-    Beggar();
-    Beggar(const Beggar &beggar);
-    void takeDamage(int);
+	Beggar();
+	Beggar(const Beggar &beggar);
+    Beggar &operator=(const Beggar &beggar);
     virtual ~Beggar();
-
 };
 
 

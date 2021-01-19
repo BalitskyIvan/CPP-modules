@@ -7,7 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ex01.dir/Godzilla.cpp.o"
   "CMakeFiles/ex01.dir/GrenadeLauncher.cpp.o"
   "CMakeFiles/ex01.dir/PlasmaRifle.cpp.o"
-  "CMakeFiles/ex01.dir/PowerFirst.cpp.o"
+  "CMakeFiles/ex01.dir/PowerFist.cpp.o"
   "CMakeFiles/ex01.dir/RadScorpion.cpp.o"
   "CMakeFiles/ex01.dir/SuperMutant.cpp.o"
   "CMakeFiles/ex01.dir/main.cpp.o"

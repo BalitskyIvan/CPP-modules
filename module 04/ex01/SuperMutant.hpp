@@ -11,7 +11,8 @@ class SuperMutant : public Enemy {
 public:
 	SuperMutant();
 	SuperMutant(const SuperMutant &superMutant);
-	void takeDamage(int);
+    SuperMutant &operator= (const SuperMutant &superMutant);
+	void takeDamage(int i) override;
 	virtual ~SuperMutant();
 };
 

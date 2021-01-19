@@ -10,7 +10,8 @@
 class GrenadeLauncher : public AWeapon {
 public:
 	GrenadeLauncher(const GrenadeLauncher &grenadeLauncher);
-	void attack() const;
+	virtual void attack() const;
+    GrenadeLauncher &operator= (const GrenadeLauncher &weapon);
 	virtual ~GrenadeLauncher();
 	GrenadeLauncher();
 };

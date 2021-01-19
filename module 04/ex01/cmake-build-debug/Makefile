@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/lmallado/Desktop/cpp/module 04/ex01"
+CMAKE_SOURCE_DIR = "/Users/lmallado/Desktop/cpp/module 04/ex01"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug"
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/138/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/138/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles" "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles" "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lmallado/Desktop/cpp/module 04/ex01/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -359,32 +359,32 @@ PlasmaRifle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/PlasmaRifle.cpp.s
 .PHONY : PlasmaRifle.cpp.s
 
-PowerFirst.o: PowerFirst.cpp.o
+PowerFist.o: PowerFist.cpp.o
 
-.PHONY : PowerFirst.o
+.PHONY : PowerFist.o
 
 # target to build an object file
-PowerFirst.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/PowerFirst.cpp.o
-.PHONY : PowerFirst.cpp.o
+PowerFist.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/PowerFist.cpp.o
+.PHONY : PowerFist.cpp.o
 
-PowerFirst.i: PowerFirst.cpp.i
+PowerFist.i: PowerFist.cpp.i
 
-.PHONY : PowerFirst.i
+.PHONY : PowerFist.i
 
 # target to preprocess a source file
-PowerFirst.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/PowerFirst.cpp.i
-.PHONY : PowerFirst.cpp.i
+PowerFist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/PowerFist.cpp.i
+.PHONY : PowerFist.cpp.i
 
-PowerFirst.s: PowerFirst.cpp.s
+PowerFist.s: PowerFist.cpp.s
 
-.PHONY : PowerFirst.s
+.PHONY : PowerFist.s
 
 # target to generate assembly for a file
-PowerFirst.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/PowerFirst.cpp.s
-.PHONY : PowerFirst.cpp.s
+PowerFist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/PowerFist.cpp.s
+.PHONY : PowerFist.cpp.s
 
 RadScorpion.o: RadScorpion.cpp.o
 
@@ -500,9 +500,9 @@ help:
 	@echo "... PlasmaRifle.o"
 	@echo "... PlasmaRifle.i"
 	@echo "... PlasmaRifle.s"
-	@echo "... PowerFirst.o"
-	@echo "... PowerFirst.i"
-	@echo "... PowerFirst.s"
+	@echo "... PowerFist.o"
+	@echo "... PowerFist.i"
+	@echo "... PowerFist.s"
 	@echo "... RadScorpion.o"
 	@echo "... RadScorpion.i"
 	@echo "... RadScorpion.s"
