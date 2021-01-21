@@ -80,36 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex00/Passer.cpp">
-			<Option target="ex00"/>
-		</Unit>
-		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex00/Passer.hpp">
-			<Option target="ex00"/>
-		</Unit>
-		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex00/Peon.cpp">
-			<Option target="ex00"/>
-		</Unit>
-		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex00/Peon.hpp">
-			<Option target="ex00"/>
-		</Unit>
-		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex00/Policeman.cpp">
-			<Option target="ex00"/>
-		</Unit>
-		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex00/Policeman.hpp">
-			<Option target="ex00"/>
-		</Unit>
-		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex00/Sorcerer.cpp">
-			<Option target="ex00"/>
-		</Unit>
-		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex00/Sorcerer.hpp">
-			<Option target="ex00"/>
-		</Unit>
-		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex00/Victim.cpp">
-			<Option target="ex00"/>
-		</Unit>
-		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex00/Victim.hpp">
-			<Option target="ex00"/>
-		</Unit>
 		<Unit filename="/Users/lmallado/Desktop/cpp/module 04/ex00/main.cpp">
 			<Option target="ex00"/>
 		</Unit>

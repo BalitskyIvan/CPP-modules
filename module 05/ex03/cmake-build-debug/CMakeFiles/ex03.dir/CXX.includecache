@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lmallado/Desktop/cpp/module 05/ex03/Bureaucrat.hpp
+iostream
+-
+Form.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/Form.hpp
+
+/Users/lmallado/Desktop/cpp/module 05/ex03/Form.hpp
+Bureaucrat.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/Bureaucrat.hpp
+
+/Users/lmallado/Desktop/cpp/module 05/ex03/Intern.hpp
+Form.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/Form.hpp
+ShrubberyCreationForm.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/ShrubberyCreationForm.hpp
+RobotomyRequestForm.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/RobotomyRequestForm.hpp
+PresidentialPardonForm.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/PresidentialPardonForm.hpp
+
+/Users/lmallado/Desktop/cpp/module 05/ex03/PresidentialPardonForm.hpp
+Form.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/Form.hpp
+
+/Users/lmallado/Desktop/cpp/module 05/ex03/RobotomyRequestForm.hpp
+Form.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/Form.hpp
+
+/Users/lmallado/Desktop/cpp/module 05/ex03/ShrubberyCreationForm.hpp
+Form.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/Form.hpp
+sstream
+-
+fstream
+-
+
+/Users/lmallado/Desktop/cpp/module 05/ex03/main.cpp
+Bureaucrat.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/Bureaucrat.hpp
+Form.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/Form.hpp
+ShrubberyCreationForm.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/ShrubberyCreationForm.hpp
+RobotomyRequestForm.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/RobotomyRequestForm.hpp
+PresidentialPardonForm.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/PresidentialPardonForm.hpp
+Intern.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex03/Intern.hpp
+

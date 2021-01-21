@@ -3,4 +3,4 @@ project(ex00)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(ex00 main.cpp Sorcerer.cpp Sorcerer.hpp Victim.cpp Victim.hpp Peon.cpp Peon.hpp Passer.cpp Passer.hpp Policeman.cpp Policeman.hpp)
+add_executable(ex00 main.cpp)

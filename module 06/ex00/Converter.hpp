@@ -1,0 +1,28 @@
+//
+// Created by Lonmouth Mallador on 1/21/21.
+//
+
+#ifndef EX00_CONVERTER_HPP
+#define EX00_CONVERTER_HPP
+
+#include <iostream>
+
+class Converter {
+private:
+  const std::string source;
+  std::string intVal;
+  std::string floatVal;
+  std::string doubleVal;
+  std::string charVal;
+  std::string getType(std::string type);
+  bool isChar(std::string s);
+public:
+  Converter(const std::string &source);
+  const std::string &getIntVal() const;
+  const std::string &getFloatVal() const;
+  const std::string &getDoubleVal() const;
+  const std::string &getCharVal() const;
+  virtual ~Converter();
+};
+
+#endif // EX00_CONVERTER_HPP

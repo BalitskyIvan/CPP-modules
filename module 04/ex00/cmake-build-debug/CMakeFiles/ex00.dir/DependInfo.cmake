@@ -4,11 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/lmallado/Desktop/cpp/module 04/ex00/Passer.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex00/cmake-build-debug/CMakeFiles/ex00.dir/Passer.cpp.o"
-  "/Users/lmallado/Desktop/cpp/module 04/ex00/Peon.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex00/cmake-build-debug/CMakeFiles/ex00.dir/Peon.cpp.o"
-  "/Users/lmallado/Desktop/cpp/module 04/ex00/Policeman.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex00/cmake-build-debug/CMakeFiles/ex00.dir/Policeman.cpp.o"
-  "/Users/lmallado/Desktop/cpp/module 04/ex00/Sorcerer.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex00/cmake-build-debug/CMakeFiles/ex00.dir/Sorcerer.cpp.o"
-  "/Users/lmallado/Desktop/cpp/module 04/ex00/Victim.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex00/cmake-build-debug/CMakeFiles/ex00.dir/Victim.cpp.o"
   "/Users/lmallado/Desktop/cpp/module 04/ex00/main.cpp" "/Users/lmallado/Desktop/cpp/module 04/ex00/cmake-build-debug/CMakeFiles/ex00.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

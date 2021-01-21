@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lmallado/Desktop/cpp/module 05/ex01/Bureaucrat.cpp
+Form.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex01/Form.hpp
+
+/Users/lmallado/Desktop/cpp/module 05/ex01/Bureaucrat.hpp
+iostream
+-
+Form.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex01/Form.hpp
+
+/Users/lmallado/Desktop/cpp/module 05/ex01/Form.cpp
+Form.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex01/Form.hpp
+
+/Users/lmallado/Desktop/cpp/module 05/ex01/Form.hpp
+Bureaucrat.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex01/Bureaucrat.hpp
+
+/Users/lmallado/Desktop/cpp/module 05/ex01/main.cpp
+Form.hpp
+/Users/lmallado/Desktop/cpp/module 05/ex01/Form.hpp
+
