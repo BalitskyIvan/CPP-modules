@@ -9,13 +9,12 @@
 
 class Converter {
 private:
-  const std::string source;
+  const std::string src;
   std::string intVal;
   std::string floatVal;
   std::string doubleVal;
   std::string charVal;
   std::string getType(std::string type);
-  bool isChar(std::string s);
 public:
   Converter(const std::string &source);
   const std::string &getIntVal() const;
