@@ -7,6 +7,12 @@
 #IncludeRegexTransform: 
 
 /Users/lmallado/Desktop/cpp/module 07/ex02/Array.hpp
+Test.hpp
+/Users/lmallado/Desktop/cpp/module 07/ex02/Test.hpp
+iostream
+-
+
+/Users/lmallado/Desktop/cpp/module 07/ex02/Test.hpp
 iostream
 -
 

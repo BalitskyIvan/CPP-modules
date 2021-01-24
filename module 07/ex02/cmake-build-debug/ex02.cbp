@@ -83,6 +83,9 @@
 		<Unit filename="/Users/lmallado/Desktop/cpp/module 07/ex02/Array.hpp">
 			<Option target="ex02"/>
 		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 07/ex02/Test.hpp">
+			<Option target="ex02"/>
+		</Unit>
 		<Unit filename="/Users/lmallado/Desktop/cpp/module 07/ex02/main.cpp">
 			<Option target="ex02"/>
 		</Unit>
