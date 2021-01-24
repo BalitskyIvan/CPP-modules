@@ -14,7 +14,13 @@ private:
   std::string floatVal;
   std::string doubleVal;
   std::string charVal;
-  std::string getType(std::string type);
+  char getType(std::string type);
+  void convertFromInt(std::string val);
+  void convertFromChar(std::string val);
+  void convertFromFloat(std::string val);
+  void convertFromDouble(std::string val);
+  void onException();
+
 public:
   Converter(const std::string &source);
   const std::string &getIntVal() const;

@@ -80,10 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 06/ex00/ConvertUtils.cpp">
+			<Option target="ex00"/>
+		</Unit>
 		<Unit filename="/Users/lmallado/Desktop/cpp/module 06/ex00/Converter.cpp">
 			<Option target="ex00"/>
 		</Unit>
 		<Unit filename="/Users/lmallado/Desktop/cpp/module 06/ex00/Converter.hpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 06/ex00/InitType.cpp">
 			<Option target="ex00"/>
 		</Unit>
 		<Unit filename="/Users/lmallado/Desktop/cpp/module 06/ex00/main.cpp">

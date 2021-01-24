@@ -143,6 +143,33 @@ ex00/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/build
 .PHONY : ex00/fast
 
+ConvertUtils.o: ConvertUtils.cpp.o
+
+.PHONY : ConvertUtils.o
+
+# target to build an object file
+ConvertUtils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/ConvertUtils.cpp.o
+.PHONY : ConvertUtils.cpp.o
+
+ConvertUtils.i: ConvertUtils.cpp.i
+
+.PHONY : ConvertUtils.i
+
+# target to preprocess a source file
+ConvertUtils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/ConvertUtils.cpp.i
+.PHONY : ConvertUtils.cpp.i
+
+ConvertUtils.s: ConvertUtils.cpp.s
+
+.PHONY : ConvertUtils.s
+
+# target to generate assembly for a file
+ConvertUtils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/ConvertUtils.cpp.s
+.PHONY : ConvertUtils.cpp.s
+
 Converter.o: Converter.cpp.o
 
 .PHONY : Converter.o
@@ -169,6 +196,33 @@ Converter.s: Converter.cpp.s
 Converter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Converter.cpp.s
 .PHONY : Converter.cpp.s
+
+InitType.o: InitType.cpp.o
+
+.PHONY : InitType.o
+
+# target to build an object file
+InitType.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/InitType.cpp.o
+.PHONY : InitType.cpp.o
+
+InitType.i: InitType.cpp.i
+
+.PHONY : InitType.i
+
+# target to preprocess a source file
+InitType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/InitType.cpp.i
+.PHONY : InitType.cpp.i
+
+InitType.s: InitType.cpp.s
+
+.PHONY : InitType.s
+
+# target to generate assembly for a file
+InitType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/InitType.cpp.s
+.PHONY : InitType.cpp.s
 
 main.o: main.cpp.o
 
@@ -206,9 +260,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex00"
+	@echo "... ConvertUtils.o"
+	@echo "... ConvertUtils.i"
+	@echo "... ConvertUtils.s"
 	@echo "... Converter.o"
 	@echo "... Converter.i"
 	@echo "... Converter.s"
+	@echo "... InitType.o"
+	@echo "... InitType.i"
+	@echo "... InitType.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

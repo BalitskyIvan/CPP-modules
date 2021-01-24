@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 06/ex01/Serialization.cpp">
+			<Option target="ex01"/>
+		</Unit>
+		<Unit filename="/Users/lmallado/Desktop/cpp/module 06/ex01/Serialization.hpp">
+			<Option target="ex01"/>
+		</Unit>
 		<Unit filename="/Users/lmallado/Desktop/cpp/module 06/ex01/main.cpp">
 			<Option target="ex01"/>
 		</Unit>

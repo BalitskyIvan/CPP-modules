@@ -143,6 +143,33 @@ ex01/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/build
 .PHONY : ex01/fast
 
+Serialization.o: Serialization.cpp.o
+
+.PHONY : Serialization.o
+
+# target to build an object file
+Serialization.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Serialization.cpp.o
+.PHONY : Serialization.cpp.o
+
+Serialization.i: Serialization.cpp.i
+
+.PHONY : Serialization.i
+
+# target to preprocess a source file
+Serialization.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Serialization.cpp.i
+.PHONY : Serialization.cpp.i
+
+Serialization.s: Serialization.cpp.s
+
+.PHONY : Serialization.s
+
+# target to generate assembly for a file
+Serialization.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Serialization.cpp.s
+.PHONY : Serialization.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex01"
+	@echo "... Serialization.o"
+	@echo "... Serialization.i"
+	@echo "... Serialization.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

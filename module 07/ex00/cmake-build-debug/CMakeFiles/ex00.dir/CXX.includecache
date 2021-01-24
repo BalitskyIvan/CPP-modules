@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lmallado/Desktop/cpp/module 07/ex00/main.cpp
+whatever.hpp
+/Users/lmallado/Desktop/cpp/module 07/ex00/whatever.hpp
+iostream
+-
+
+/Users/lmallado/Desktop/cpp/module 07/ex00/whatever.hpp
+
