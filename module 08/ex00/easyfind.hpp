@@ -4,10 +4,10 @@
 
 #ifndef EX00_EASYFIND_HPP
 #define EX00_EASYFIND_HPP
-#include<vector>
-#include<algorithm>
+#include <algorithm>
 #include <iostream>
-#include<iterator>
+#include <iterator>
+#include <vector>
 
 class IndexOfBoundsException : public std::exception {
 public:

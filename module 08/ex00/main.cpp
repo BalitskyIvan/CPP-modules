@@ -1,11 +1,32 @@
-#include <iostream>
 #include "easyfind.hpp"
+#include <iostream>
+
 int main() {
-	int x[5] = {10, 20, 20, 40, 50};
-	std::vector<int>v;
-	v.push_back(5);
-	v.push_back(4);
-	v.push_back(3);
-	std::cout << *easyfind(v, 3) << std::endl;
+	{
+		std::vector<int> v;
+		for (int i = 0; i < 10000; i++)
+			v.push_back(i);
+		std::cout << *easyfind(v, 7654) << std::endl;
+	}
+	{
+		std::vector<int> v;
+		for (int i = 0; i < 10000; i++)
+			v.push_back(i);
+		try {
+			std::cout << *easyfind(v, 10001) << std::endl;
+		} catch (std::exception &e) {
+			std::cout << "Error: " << e.what() << std::endl;
+		}
+		try {
+			std::cout << *easyfind(v, 0) << std::endl;
+		} catch (std::exception &e) {
+			std::cout << "Error: " << e.what() << std::endl;
+		}
+		try {
+			std::cout << *easyfind(v, -1) << std::endl;
+		} catch (std::exception &e) {
+			std::cout << "Error: " << e.what() << std::endl;
+		}
+	}
 	return 0;
 }

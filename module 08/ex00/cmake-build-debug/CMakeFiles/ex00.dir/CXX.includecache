@@ -7,18 +7,18 @@
 #IncludeRegexTransform: 
 
 /Users/lmallado/Desktop/cpp/module 08/ex00/easyfind.hpp
-vector
--
 algorithm
 -
 iostream
 -
 iterator
 -
+vector
+-
 
 /Users/lmallado/Desktop/cpp/module 08/ex00/main.cpp
-iostream
--
 easyfind.hpp
 /Users/lmallado/Desktop/cpp/module 08/ex00/easyfind.hpp
+iostream
+-
 

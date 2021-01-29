@@ -11,11 +11,18 @@
 
 class Span {
 private:
-	std::vector<int> arr;
+	std::vector<int> *arr;
+
+public:
+	Span();
 
 public:
 	Span(unsigned int n);
+	Span(Span &span);
 	void addNumber(int newEl);
+	std::vector<int> *getArr() const;
+	Span &operator=(const Span &span);
+	void betterAddNumber(int range);
 	int shortestSpan();
 	int longestSpan();
 	virtual ~Span();
