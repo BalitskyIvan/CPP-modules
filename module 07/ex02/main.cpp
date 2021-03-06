@@ -76,5 +76,22 @@ int main() {
 
 		}
 	}
+	{
+		std::cout << "\n--------------Test 4--------------\n"
+				  << std::endl;
+		Array<int> *a = new Array<int>;
+		try {
+			(*a)[0] = 5;
+		} catch (std::exception &e) {
+			std::cout << "Error : " << e.what() << std::endl;
+		}
+		const Array<int> b(5);
+		try {
+			b[3] = 5;
+			std::cout << "Value of index 3 is : " << b[3] << std::endl;
+		} catch (std::exception &e) {
+			std::cout << "Error : " << e.what() << std::endl;
+		}
+	}
 	return 0;
 }

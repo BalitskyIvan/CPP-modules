@@ -1,3 +1,0 @@
-/Users/lmallado/Desktop/cpp/module 02/ex00/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/lmallado/Desktop/cpp/module 02/ex00/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/lmallado/Desktop/cpp/module 02/ex00/cmake-build-debug/CMakeFiles/ex00.dir

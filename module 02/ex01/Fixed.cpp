@@ -18,7 +18,7 @@ Fixed& Fixed::operator=(const Fixed &fixed)
     if (this == &fixed) {
         return *this;
     }
-    value = fixed.value;
+    value = fixed.getRawBits();
     return *this;
 }
 std::ostream& operator<< (std::ostream& os, const Fixed& fixed)
@@ -28,7 +28,6 @@ std::ostream& operator<< (std::ostream& os, const Fixed& fixed)
 }
 
 int Fixed::getRawBits() const {
-    std::cout << "getRawBits member function called" << std::endl;
     return (this->value);
 }
 
@@ -40,15 +39,16 @@ Fixed::~Fixed() {
     std::cout << "Destructor called" << std::endl;
 }
 
-Fixed::Fixed(int value) : value(value << this->fractional) {    std::cout << "Int constructor called" << std::endl;
+Fixed::Fixed(int value) : value(value * pow(2, this->fractional)) {    std::cout << "Int constructor called" << std::endl;
 }
 
-Fixed::Fixed(float value) : value((int) std::roundf(value * (1 << this->fractional))) {    std::cout << "Float constructor called" << std::endl;
+Fixed::Fixed(float value) : value((int) std::roundf(value * pow(2, this->fractional)))
+{    std::cout << "Float constructor called" << std::endl;
 }
 
 int Fixed::toInt(void) const {
-	return this->value >> this->fractional;
+	return this->value / pow(2, this->fractional);
 }
 float Fixed::toFloat(void) const {
-	return (float) this->value / (float) (1 << this->fractional);
+	return (float) this->value / pow(2, this->fractional);
 }

@@ -8,8 +8,9 @@ Fixed::Fixed() : value(0) {
     std::cout << "Default constructor called" << std::endl;
 }
 
-Fixed::Fixed(const Fixed &fixed) : value(fixed.value) {
+Fixed::Fixed(const Fixed &fixed) {
     std::cout << "Copy constructor called" << std::endl;
+    this->value = fixed.getRawBits();
 }
 
 Fixed& Fixed::operator=(const Fixed &fixed)
@@ -18,13 +19,13 @@ Fixed& Fixed::operator=(const Fixed &fixed)
     if (this == &fixed) {
     	return *this;
     }
-    value = fixed.value;
+    value = fixed.getRawBits();
     return *this;
 }
 
-ostream& operator<< (ostream& out const Fixed& fixed)
+std::ostream& operator<< (std::ostream& out, const Fixed& fixed)
 {
-	out << fixed.value;
+	out << fixed.getRawBits();
 	return out;
 }
 

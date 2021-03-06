@@ -16,7 +16,7 @@ private:
 
 public:
 	Array() {
-		arr = new T;
+		arr = new T[0];
 		size = 0;
 	}
 	Array(unsigned int n) {
@@ -36,8 +36,8 @@ public:
 		}
 	};
 
-	T &operator[](int &x) {
-		if (x >= size || x < 0)
+	T &operator[](const int &x) const{
+		if (x >= size || x < 0 || size == 0)
 			throw Array::IndexOfBoundsException();
 		else
 			return arr[x];
@@ -47,10 +47,11 @@ public:
 		if (this == &array) {
 			return *this;
 		}
-		delete arr;
-		arr = new T[array.getSize()];
+		T *arr_new = new T[array.getSize()];
 		for (int i = 0; i < array.getSize(); i++)
-			arr[i] = array.arr[i];
+			arr_new[i] = array.arr[i];
+		delete arr;
+		arr = arr_new;
 		return *this;
 	}
 

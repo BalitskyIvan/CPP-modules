@@ -1,4 +1,4 @@
-#include "pony.hpp"
+#include "Pony.hpp"
 
 static void printPonyParameters(Pony *pony)
 {
